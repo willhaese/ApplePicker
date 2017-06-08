@@ -14,8 +14,11 @@ public class AppleTree : MonoBehaviour {
     public float        secondsBetweenAppleDrops = 1f;
     void Start () {
         // Dropping apples every second     
-    }     void Update () {
-        // Basic Movement         
-        // Changing Direction     
+    }     void Update (){
+        // Basic Movement     
+        Vector3 pos = transform.position;
+        pos.x += speed * Time.deltaTime;
+        transform.position = pos;     
+        // Changing Direction    
     }
 }
