@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 13527358}
   - component: {fileID: 2327358}
   - component: {fileID: 5427358}
-  - component: {fileID: 114180099491155564}
-  m_Layer: 0
+  - component: {fileID: 114168519660943510}
+  m_Layer: 9
   m_Name: Apple
   m_TagString: Apple
   m_Icon: {fileID: 0}
@@ -110,7 +110,7 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 127358}
   m_IsPrefabParent: 1
---- !u!114 &114180099491155564
+--- !u!114 &114168519660943510
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
